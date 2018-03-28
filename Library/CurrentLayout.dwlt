@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 345}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 1554
+  controlID: 4832
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 345}
   m_MaxSize: {x: 8006, y: 8045}
   vertical: 1
-  controlID: 1555
+  controlID: 4833
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 1556
+  controlID: 4834
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,10 +391,10 @@ MonoBehaviour:
     width: 207
     height: 411
   m_TreeViewState:
-    scrollPos: {x: 0, y: 310}
-    m_SelectedIDs: be290000
-    m_LastClickedID: 10686
-    m_ExpandedIDs: e6fbffff00000000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 02460000
+    m_LastClickedID: 17922
+    m_ExpandedIDs: 80dbfeffb2e4feff76eafeff50f1feff280affff880effffcc17ffff6237ffff643affff0444ffff0e4cffff664effff1c5bffff586dffffa872ffffa87bffffb27dffff5888fffff4c8ffff46d2ffffd4effffff0f7ffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,14 +444,14 @@ MonoBehaviour:
     width: 636
     height: 411
   m_SceneLighting: 1
-  lastFramingTime: 0
+  lastFramingTime: 1529.8098186967652
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 13.130199, y: -58.383442, z: 0}
+    m_Target: {x: 0.022408485, y: -0.05000019, z: 0}
     speed: 2
-    m_Value: {x: 13.130199, y: -58.383442, z: 0}
+    m_Value: {x: 0.022408485, y: -0.05000019, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -478,9 +478,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 22.044392
+    m_Target: 16.031837
     speed: 2
-    m_Value: 22.044392
+    m_Value: 16.031837
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -663,18 +663,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ca280000
-    m_LastClickedID: 10442
+    m_SelectedIDs: c4250000
+    m_LastClickedID: 9668
     m_ExpandedIDs: 000000001a250000fe25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 569}
+    m_ScrollPosition: {x: 0, y: 194}
     m_GridSize: 96
   m_DirectoriesAreaWidth: 110
 --- !u!114 &21
@@ -784,7 +784,7 @@ MonoBehaviour:
     y: 92
     width: 278
     height: 614
-  m_ScrollPosition: {x: 0, y: 660}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160

@@ -14,7 +14,7 @@ public class LoadWorld : MonoBehaviour {
 		
         if(Input.anyKey)
         {
-            Application.LoadLevel("Real Main");
+            Application.LoadLevel("Guide1");
         }
 
 	}

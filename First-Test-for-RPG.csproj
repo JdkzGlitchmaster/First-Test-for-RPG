@@ -83,6 +83,8 @@
     <Compile Include="Assets\Scripts\HurtEnemy.cs" />
     <Compile Include="Assets\Scripts\HurtPlayer.cs" />
     <Compile Include="Assets\Scripts\LoadWorld.cs" />
+    <Compile Include="Assets\Scripts\LoadWorld2.cs" />
+    <Compile Include="Assets\Scripts\LoadWorld3.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerHealthManager.cs" />
     <Compile Include="Assets\Scripts\SFXManager.cs" />
