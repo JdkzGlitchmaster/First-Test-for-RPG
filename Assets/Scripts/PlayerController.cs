@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour {
 
         if (!attacking)
         {
-
+            
 
             if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
             {

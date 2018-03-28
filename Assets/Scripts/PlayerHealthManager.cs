@@ -31,7 +31,7 @@ public class PlayerHealthManager : MonoBehaviour {
             sfxMan.playerDead.Play();
 
             gameObject.SetActive(false);
-
+            UIManager.instance.gameOverText.text = "YOU DIED" + System.Environment.NewLine + "PRESS ANY BUTTON TO START AGAIN";
 
             
         }

@@ -4,15 +4,18 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-
+    
     public Slider healthBar;
     public Text HPtext;
     public PlayerHealthManager playerHealth;
+    public Text gameOverText;
+
+    public static UIManager instance;
 
     // Use this for initialization
     void Start()
     {
-
+        instance = this;
     }
 
     // Update is called once per frame
