@@ -1,0 +1,54 @@
+Initialize engine version: 5.6.3p1 (9c92e827232b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   21.20.16.4550
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.166 seconds
+Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.578770 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.325546 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 259.
+Total: 0.762452 ms (FindLiveObjects: 0.021333 ms CreateObjectMapping: 0.031573 ms MarkObjects: 0.567039 ms  DeleteObjects: 0.141653 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.813225 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 259.
+Total: 0.414719 ms (FindLiveObjects: 0.042239 ms CreateObjectMapping: 0.056746 ms MarkObjects: 0.271786 ms  DeleteObjects: 0.042239 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.331946 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 845.
+Total: 0.623785 ms (FindLiveObjects: 0.095573 ms CreateObjectMapping: 0.068693 ms MarkObjects: 0.437332 ms  DeleteObjects: 0.020906 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 171.954559 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 869.
+Total: 0.600319 ms (FindLiveObjects: 0.077653 ms CreateObjectMapping: 0.037973 ms MarkObjects: 0.476586 ms  DeleteObjects: 0.007253 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 418 -> priority: 1 
+  Thread -> id: 1684 -> priority: 1 
