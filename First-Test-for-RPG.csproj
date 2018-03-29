@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\HurtEnemy.cs" />
     <Compile Include="Assets\Scripts\HurtPlayer.cs" />
+    <Compile Include="Assets\Scripts\LoadEnd.cs" />
     <Compile Include="Assets\Scripts\LoadWorld.cs" />
     <Compile Include="Assets\Scripts\LoadWorld2.cs" />
     <Compile Include="Assets\Scripts\LoadWorld3.cs" />
