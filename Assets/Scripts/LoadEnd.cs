@@ -4,21 +4,29 @@ using UnityEngine;
 
 public class LoadEnd : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public GameObject endSquare;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (EnemyCounter.instance.enemyCount == EnemyCounter.instance.maxEnemyCount)
+        {
+            endSquare.SetActive(true);
+        }
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.name == "Temp")
+        if (EnemyCounter.instance.enemyCount == EnemyCounter.instance.maxEnemyCount)
         {
-            Application.LoadLevel("End");
+            if (other.gameObject.name == "Temp")
+            {
+                Application.LoadLevel("End");
+            }
         }
     }
 }

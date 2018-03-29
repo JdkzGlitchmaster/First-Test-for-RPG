@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     public Text HPtext;
     public PlayerHealthManager playerHealth;
     public Text gameOverText;
+    public Text enemyCountText;
 
     public static UIManager instance;
 
@@ -25,6 +26,7 @@ public class UIManager : MonoBehaviour
         healthBar.maxValue = playerHealth.playerMaxHealth;
         healthBar.value = playerHealth.playerCurrentHealth;
         HPtext.text = "HP: " + playerHealth.playerCurrentHealth + "/" + playerHealth.playerMaxHealth;
+        enemyCountText.text = "Enemies killed: " + EnemyCounter.instance.enemyCount + "/" + EnemyCounter.instance.maxEnemyCount;
 
     }
 }

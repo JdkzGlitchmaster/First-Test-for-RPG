@@ -15,6 +15,8 @@ public class PlayerHealthManager : MonoBehaviour {
 
     private SpriteRenderer playerSprite;
 
+ 
+
 	// Use this for initialization
 	void Start () {
 
@@ -37,23 +39,46 @@ public class PlayerHealthManager : MonoBehaviour {
         }
         if(flashActive)
         {
-            if (flashCounter > flashLength * 0.66f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
-            } else if (flashCounter > flashLength * 0.33f)
-            {
-                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
-            } else if (flashCounter > 0f)
+            if (flashCounter > flashLength * 0.88f)
             {
                 playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
             }
-
-            
+            else if (flashCounter > flashLength * 0.77f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 0.66f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 0.55f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 0.44f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 0.33f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > flashLength * 0.22f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
+            else if (flashCounter > flashLength * 0.11f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
+            }
+            else if (flashCounter > 0f)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 0f);
+            }
             else
             {
                 playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b, 1f);
                 flashActive = false;
-
             }
 
             flashCounter -= Time.deltaTime;
@@ -62,13 +87,16 @@ public class PlayerHealthManager : MonoBehaviour {
 
     public void HurtPlayer(int damageToGive)
     {
-        playerCurrentHealth -= damageToGive;
+        if (!flashActive)
+        {
+            playerCurrentHealth -= damageToGive;
 
-        flashActive = true;
-        flashCounter = flashLength;
-            
+            flashActive = true;
+            flashCounter = flashLength;
 
-        sfxMan.playerHurt.Play();
+
+            sfxMan.playerHurt.Play();
+        }
     }
 
     public void SetMaxHealth()

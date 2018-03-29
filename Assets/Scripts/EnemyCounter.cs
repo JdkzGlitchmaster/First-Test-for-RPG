@@ -2,21 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoadWorld : MonoBehaviour {
+public class EnemyCounter : MonoBehaviour {
+
+    public static EnemyCounter instance;
+    public int enemyCount = 0;
+    public int maxEnemyCount;
 
 	// Use this for initialization
 	void Start () {
-		
+        instance = this;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-
-        if (Input.anyKeyDown)
-        {
-            Application.LoadLevel("Guide1");
-        }
-
+		
 	}
 }

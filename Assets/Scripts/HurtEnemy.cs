@@ -27,6 +27,14 @@ public class HurtEnemy : MonoBehaviour {
             Destroy(other.gameObject);
             sfxMan.enemyDead.Play();
             Instantiate(particle, transform.position, transform.rotation);
+
+            if(EnemyCounter.instance.enemyCount < EnemyCounter.instance.maxEnemyCount)
+            {
+                EnemyCounter.instance.enemyCount++;
+            }
+                
+
+
         }
 
         if (other.gameObject.tag == "Boss")
