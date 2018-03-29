@@ -8,6 +8,8 @@ public class SFXManager : MonoBehaviour {
     public AudioSource playerDead;
     public AudioSource playerAttack;
     public AudioSource enemyDead;
+    public AudioSource slimeHit;
+    public AudioSource pop;
 
     private static bool sfxmanExists;
 

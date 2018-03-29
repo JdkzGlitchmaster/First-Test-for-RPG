@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class HurtEnemy : MonoBehaviour {
 
+    public int damageToGive;
+    public GameObject particle;
+
     private SFXManager sfxMan;
 
     // Use this for initialization
@@ -23,6 +26,14 @@ public class HurtEnemy : MonoBehaviour {
         {
             Destroy(other.gameObject);
             sfxMan.enemyDead.Play();
+            Instantiate(particle, transform.position, transform.rotation);
+        }
+
+        if (other.gameObject.tag == "Boss")
+        {
+            other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
+            Instantiate(particle, transform.position, transform.rotation);
+            sfxMan.slimeHit.Play();
         }
     }
 }

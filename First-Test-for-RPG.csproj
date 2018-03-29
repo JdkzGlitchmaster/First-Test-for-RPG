@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AxeUser.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealthManager.cs" />
     <Compile Include="Assets\Scripts\HurtEnemy.cs" />
     <Compile Include="Assets\Scripts\HurtPlayer.cs" />
     <Compile Include="Assets\Scripts\LoadEnd.cs" />
