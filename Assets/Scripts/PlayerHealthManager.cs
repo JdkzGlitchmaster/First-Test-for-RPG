@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthManager : MonoBehaviour {
 
@@ -15,27 +16,31 @@ public class PlayerHealthManager : MonoBehaviour {
 
     private SpriteRenderer playerSprite;
 
- 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
         playerCurrentHealth = playerMaxHealth;
         playerSprite = GetComponent<SpriteRenderer>();
         sfxMan = FindObjectOfType<SFXManager>();
-
+        
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+
+    // Update is called once per frame
+    void Update () {
 		if(playerCurrentHealth <= 0)
         {
             sfxMan.playerDead.Play();
 
+            UIManager.instance.restartGame();
+            
+
             gameObject.SetActive(false);
             UIManager.instance.gameOverText.text = "YOU DIED" + System.Environment.NewLine + "PRESS ANY BUTTON TO START AGAIN";
-
             
+         
+
         }
         if(flashActive)
         {

@@ -7,6 +7,7 @@ public class EnemyCounter : MonoBehaviour {
     public static EnemyCounter instance;
     public int enemyCount = 0;
     public int maxEnemyCount;
+    public bool bossKilled = false;
 
 	// Use this for initialization
 	void Start () {

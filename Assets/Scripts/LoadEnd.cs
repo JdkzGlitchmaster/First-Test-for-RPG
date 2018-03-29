@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadEnd : MonoBehaviour {
 
@@ -13,7 +14,7 @@ public class LoadEnd : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (EnemyCounter.instance.enemyCount == EnemyCounter.instance.maxEnemyCount)
+        if (EnemyCounter.instance.enemyCount == EnemyCounter.instance.maxEnemyCount && EnemyCounter.instance.bossKilled)
         {
             endSquare.SetActive(true);
         }
@@ -21,11 +22,11 @@ public class LoadEnd : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (EnemyCounter.instance.enemyCount == EnemyCounter.instance.maxEnemyCount)
+        if (EnemyCounter.instance.enemyCount == EnemyCounter.instance.maxEnemyCount && EnemyCounter.instance.bossKilled)
         {
             if (other.gameObject.name == "Temp")
             {
-                Application.LoadLevel("End");
+                SceneManager.LoadScene("End");
             }
         }
     }

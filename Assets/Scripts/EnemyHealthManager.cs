@@ -27,6 +27,8 @@ public class EnemyHealthManager : MonoBehaviour {
 
             sfxMan.pop.Play();
 
+            EnemyCounter.instance.bossKilled = true;
+
         }
      
     
