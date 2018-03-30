@@ -135,6 +135,8 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Tiled2Unity\Imported\FINALMAP1.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\FINALMAP2.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\GameMap.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\GameMap2.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\GameMap3.tiled2unity.xml" />
