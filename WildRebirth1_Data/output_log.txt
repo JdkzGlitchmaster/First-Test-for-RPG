@@ -17,44 +17,32 @@ Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirt
 Loading C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.166 seconds
+- Completed reload, in  0.035 seconds
 Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Jonah\Documents\GitHub\First-Test-for-RPG\WildRebirth1_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.623143 ms
+UnloadTime: 1.157545 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.352852 ms
+UnloadTime: 0.652799 ms
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 285.
-Total: 2.251517 ms (FindLiveObjects: 0.025173 ms CreateObjectMapping: 0.019199 ms MarkObjects: 2.097917 ms  DeleteObjects: 0.108373 ms)
+Total: 0.465066 ms (FindLiveObjects: 0.038826 ms CreateObjectMapping: 0.045226 ms MarkObjects: 0.165973 ms  DeleteObjects: 0.213759 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.624639 ms
+UnloadTime: 0.657919 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 282.
-Total: 0.477439 ms (FindLiveObjects: 0.051199 ms CreateObjectMapping: 0.067413 ms MarkObjects: 0.309759 ms  DeleteObjects: 0.046933 ms)
+Total: 0.555945 ms (FindLiveObjects: 0.079786 ms CreateObjectMapping: 0.105386 ms MarkObjects: 0.305066 ms  DeleteObjects: 0.063999 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.410452 ms
+UnloadTime: 0.266666 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 882.
-Total: 0.443306 ms (FindLiveObjects: 0.084053 ms CreateObjectMapping: 0.042239 ms MarkObjects: 0.300372 ms  DeleteObjects: 0.015786 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 188.375656 ms
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 324.
-Total: 0.541439 ms (FindLiveObjects: 0.039679 ms CreateObjectMapping: 0.021759 ms MarkObjects: 0.179199 ms  DeleteObjects: 0.300372 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.223573 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 324.
-Total: 0.254293 ms (FindLiveObjects: 0.027733 ms CreateObjectMapping: 0.020906 ms MarkObjects: 0.191573 ms  DeleteObjects: 0.013653 ms)
+Total: 0.511572 ms (FindLiveObjects: 0.088746 ms CreateObjectMapping: 0.041813 ms MarkObjects: 0.358826 ms  DeleteObjects: 0.020479 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1d58 -> priority: 1 
-  Thread -> id: b30 -> priority: 1 
+  Thread -> id: 42e8 -> priority: 1 
+  Thread -> id: 2ed4 -> priority: 1 
