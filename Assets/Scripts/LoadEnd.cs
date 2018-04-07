@@ -27,6 +27,7 @@ public class LoadEnd : MonoBehaviour {
             if (other.gameObject.name == "Temp")
             {
                 SceneManager.LoadScene("End");
+                EnemyCounter.DontDestroyOnLoad(gameObject);
             }
         }
     }

@@ -33,7 +33,10 @@ public class HurtEnemy : MonoBehaviour {
                 EnemyCounter.instance.enemyCount++;
             }
                 
-
+            else
+            {
+                EnemyCounter.instance.extraEnemyCount++;
+            }
 
         }
 

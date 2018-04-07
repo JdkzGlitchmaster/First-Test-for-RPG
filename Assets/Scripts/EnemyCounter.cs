@@ -8,6 +8,7 @@ public class EnemyCounter : MonoBehaviour {
     public int enemyCount = 0;
     public int maxEnemyCount;
     public bool bossKilled = false;
+    public int extraEnemyCount;
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +17,6 @@ public class EnemyCounter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        DontDestroyOnLoad(gameObject);
 	}
 }
