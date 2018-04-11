@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\LoadWorld.cs" />
     <Compile Include="Assets\Scripts\LoadWorld2.cs" />
     <Compile Include="Assets\Scripts\LoadWorld3.cs" />
+    <Compile Include="Assets\Scripts\MapAnim1.cs" />
     <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\MusicStopper.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
